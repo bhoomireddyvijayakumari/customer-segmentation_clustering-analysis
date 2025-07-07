@@ -24,11 +24,15 @@ Centroids Table: The original scale centroids revealed the behavioral tendencies
 
 Cluster 0 – Younger customers with moderate income but high spending scores.
 - Best suited for loyalty rewards and exclusive deals to retain high engagement.
+  
 Cluster 1 – Older customers with low spending score and lower income.
 - Not ideal for high-end product marketing, but suitable for budget-oriented promotions.
+  
 Cluster 2 – Middle-aged with high income and high spending score.
   - Primary target group for luxury or premium product campaigns.
+    
 Cluster 3 – Younger with low income and low spending scores.
 - Potentially less valuable now, but can be targeted for engagement-based growth programs.
+  
 Cluster 4 – High income but very low spending score.
   - Indicates potential for re-engagement; explore reasons for low spending through surveys or personalized marketing.
