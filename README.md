@@ -2,7 +2,7 @@
 This customer segmentation project successfully applied KMeans clustering to a clean dataset of customers. Through feature scaling, Elbow and Silhouette methods, and visualizations, the analysis revealed five distinct customer groups. These clusters vary in age, income, and spending patterns, providing meaningful insights for targeted marketing, product planning, and resource allocation. Strategic actions like focusing on premium customers and engaging low spenders were derived based on behavioral traits of each cluster, aiding data-driven business decisions.
 
 # Dataset Exploration
-The dataset comprises 200 customer records with four key features: Customer ID, Age, Annual Income, and Spending Score. Initial inspection confirms there are no missing values and no duplicate rows, making the dataset clean and ready for analysis. The numerical nature of features like income and score makes them ideal for clustering algorithms.
+The dataset comprises 2000 customer records with four key features: Customer ID, Age, Annual Income, and Spending Score. Initial inspection confirms there are no missing values and no duplicate rows, making the dataset clean and ready for analysis. The numerical nature of features like income and score makes them ideal for clustering algorithms.
 
 # Data Preprocessing
 To ensure the clustering algorithm performs effectively, features were standardized using StandardScaler. This transforms the values to a uniform scale (mean 0, std 1), critical because KMeans is sensitive to magnitudes and distance-based calculations.
@@ -20,7 +20,7 @@ Multiple visual tools were used to understand the clustering results:
 PCA 2D Plot: Principal Component Analysis reduced the 3D feature space into 2D, enabling visualization of clusters. The scatter plot showed clear separation between most clusters.
 Pair Plots: These explored pairwise relationships between Age, Income, and Spending Score for each cluster.
 Centroids Table: The original scale centroids revealed the behavioral tendencies of each cluster, such as high spenders with high income or younger customers with moderate spending scores.
-💡 Recommendations Based on Clusters
+# Recommendations Based on Clusters
 
 Cluster 0 – Younger customers with moderate income but high spending scores.
 - Best suited for loyalty rewards and exclusive deals to retain high engagement.
